@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8300451BABD837006AEB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8300441BABD837006AEB90 /* main.m */; };
+		4E8300481BABD837006AEB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8300471BABD837006AEB90 /* AppDelegate.m */; };
+		4E83004B1BABD837006AEB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83004A1BABD837006AEB90 /* ViewController.m */; };
+		4E83004E1BABD837006AEB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E83004C1BABD837006AEB90 /* Main.storyboard */; };
+		4E8300501BABD837006AEB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E83004F1BABD837006AEB90 /* Assets.xcassets */; };
+		4E8300531BABD837006AEB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8300511BABD837006AEB90 /* LaunchScreen.storyboard */; };
+		4E83005E1BABD837006AEB90 /* ToppaidappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83005D1BABD837006AEB90 /* ToppaidappTests.m */; };
+		4E8300691BABD837006AEB90 /* ToppaidappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8300681BABD837006AEB90 /* ToppaidappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E83005A1BABD837006AEB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8300381BABD837006AEB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E83003F1BABD837006AEB90;
+			remoteInfo = Toppaidapp;
+		};
+		4E8300651BABD837006AEB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8300381BABD837006AEB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E83003F1BABD837006AEB90;
+			remoteInfo = Toppaidapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8300401BABD837006AEB90 /* Toppaidapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toppaidapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8300441BABD837006AEB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8300461BABD837006AEB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E8300471BABD837006AEB90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E8300491BABD837006AEB90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E83004A1BABD837006AEB90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E83004D1BABD837006AEB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E83004F1BABD837006AEB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E8300521BABD837006AEB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E8300541BABD837006AEB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8300591BABD837006AEB90 /* ToppaidappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToppaidappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E83005D1BABD837006AEB90 /* ToppaidappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToppaidappTests.m; sourceTree = "<group>"; };
+		4E83005F1BABD837006AEB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8300641BABD837006AEB90 /* ToppaidappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToppaidappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8300681BABD837006AEB90 /* ToppaidappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToppaidappUITests.m; sourceTree = "<group>"; };
+		4E83006A1BABD837006AEB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E83003D1BABD837006AEB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300561BABD837006AEB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300611BABD837006AEB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8300371BABD837006AEB90 = {
+			isa = PBXGroup;
+			children = (
+				4E8300421BABD837006AEB90 /* Toppaidapp */,
+				4E83005C1BABD837006AEB90 /* ToppaidappTests */,
+				4E8300671BABD837006AEB90 /* ToppaidappUITests */,
+				4E8300411BABD837006AEB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8300411BABD837006AEB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8300401BABD837006AEB90 /* Toppaidapp.app */,
+				4E8300591BABD837006AEB90 /* ToppaidappTests.xctest */,
+				4E8300641BABD837006AEB90 /* ToppaidappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8300421BABD837006AEB90 /* Toppaidapp */ = {
+			isa = PBXGroup;
+			children = (
+				4E8300461BABD837006AEB90 /* AppDelegate.h */,
+				4E8300471BABD837006AEB90 /* AppDelegate.m */,
+				4E8300491BABD837006AEB90 /* ViewController.h */,
+				4E83004A1BABD837006AEB90 /* ViewController.m */,
+				4E83004C1BABD837006AEB90 /* Main.storyboard */,
+				4E83004F1BABD837006AEB90 /* Assets.xcassets */,
+				4E8300511BABD837006AEB90 /* LaunchScreen.storyboard */,
+				4E8300541BABD837006AEB90 /* Info.plist */,
+				4E8300431BABD837006AEB90 /* Supporting Files */,
+			);
+			path = Toppaidapp;
+			sourceTree = "<group>";
+		};
+		4E8300431BABD837006AEB90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8300441BABD837006AEB90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E83005C1BABD837006AEB90 /* ToppaidappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E83005D1BABD837006AEB90 /* ToppaidappTests.m */,
+				4E83005F1BABD837006AEB90 /* Info.plist */,
+			);
+			path = ToppaidappTests;
+			sourceTree = "<group>";
+		};
+		4E8300671BABD837006AEB90 /* ToppaidappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8300681BABD837006AEB90 /* ToppaidappUITests.m */,
+				4E83006A1BABD837006AEB90 /* Info.plist */,
+			);
+			path = ToppaidappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E83003F1BABD837006AEB90 /* Toppaidapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E83006D1BABD837006AEB90 /* Build configuration list for PBXNativeTarget "Toppaidapp" */;
+			buildPhases = (
+				4E83003C1BABD837006AEB90 /* Sources */,
+				4E83003D1BABD837006AEB90 /* Frameworks */,
+				4E83003E1BABD837006AEB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toppaidapp;
+			productName = Toppaidapp;
+			productReference = 4E8300401BABD837006AEB90 /* Toppaidapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8300581BABD837006AEB90 /* ToppaidappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8300701BABD837006AEB90 /* Build configuration list for PBXNativeTarget "ToppaidappTests" */;
+			buildPhases = (
+				4E8300551BABD837006AEB90 /* Sources */,
+				4E8300561BABD837006AEB90 /* Frameworks */,
+				4E8300571BABD837006AEB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E83005B1BABD837006AEB90 /* PBXTargetDependency */,
+			);
+			name = ToppaidappTests;
+			productName = ToppaidappTests;
+			productReference = 4E8300591BABD837006AEB90 /* ToppaidappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E8300631BABD837006AEB90 /* ToppaidappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8300731BABD837006AEB90 /* Build configuration list for PBXNativeTarget "ToppaidappUITests" */;
+			buildPhases = (
+				4E8300601BABD837006AEB90 /* Sources */,
+				4E8300611BABD837006AEB90 /* Frameworks */,
+				4E8300621BABD837006AEB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8300661BABD837006AEB90 /* PBXTargetDependency */,
+			);
+			name = ToppaidappUITests;
+			productName = ToppaidappUITests;
+			productReference = 4E8300641BABD837006AEB90 /* ToppaidappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8300381BABD837006AEB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jang Young bin";
+				TargetAttributes = {
+					4E83003F1BABD837006AEB90 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4E8300581BABD837006AEB90 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4E83003F1BABD837006AEB90;
+					};
+					4E8300631BABD837006AEB90 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4E83003F1BABD837006AEB90;
+					};
+				};
+			};
+			buildConfigurationList = 4E83003B1BABD837006AEB90 /* Build configuration list for PBXProject "Toppaidapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8300371BABD837006AEB90;
+			productRefGroup = 4E8300411BABD837006AEB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E83003F1BABD837006AEB90 /* Toppaidapp */,
+				4E8300581BABD837006AEB90 /* ToppaidappTests */,
+				4E8300631BABD837006AEB90 /* ToppaidappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E83003E1BABD837006AEB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8300531BABD837006AEB90 /* LaunchScreen.storyboard in Resources */,
+				4E8300501BABD837006AEB90 /* Assets.xcassets in Resources */,
+				4E83004E1BABD837006AEB90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300571BABD837006AEB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300621BABD837006AEB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E83003C1BABD837006AEB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83004B1BABD837006AEB90 /* ViewController.m in Sources */,
+				4E8300481BABD837006AEB90 /* AppDelegate.m in Sources */,
+				4E8300451BABD837006AEB90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300551BABD837006AEB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83005E1BABD837006AEB90 /* ToppaidappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8300601BABD837006AEB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8300691BABD837006AEB90 /* ToppaidappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E83005B1BABD837006AEB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E83003F1BABD837006AEB90 /* Toppaidapp */;
+			targetProxy = 4E83005A1BABD837006AEB90 /* PBXContainerItemProxy */;
+		};
+		4E8300661BABD837006AEB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E83003F1BABD837006AEB90 /* Toppaidapp */;
+			targetProxy = 4E8300651BABD837006AEB90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E83004C1BABD837006AEB90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E83004D1BABD837006AEB90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E8300511BABD837006AEB90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8300521BABD837006AEB90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E83006B1BABD837006AEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E83006C1BABD837006AEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E83006E1BABD837006AEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Toppaidapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.Toppaidapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E83006F1BABD837006AEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Toppaidapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.Toppaidapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E8300711BABD837006AEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToppaidappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.ToppaidappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toppaidapp.app/Toppaidapp";
+			};
+			name = Debug;
+		};
+		4E8300721BABD837006AEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToppaidappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.ToppaidappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toppaidapp.app/Toppaidapp";
+			};
+			name = Release;
+		};
+		4E8300741BABD837006AEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToppaidappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.ToppaidappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Toppaidapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4E8300751BABD837006AEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToppaidappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.osx.ToppaidappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Toppaidapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E83003B1BABD837006AEB90 /* Build configuration list for PBXProject "Toppaidapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83006B1BABD837006AEB90 /* Debug */,
+				4E83006C1BABD837006AEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E83006D1BABD837006AEB90 /* Build configuration list for PBXNativeTarget "Toppaidapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83006E1BABD837006AEB90 /* Debug */,
+				4E83006F1BABD837006AEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8300701BABD837006AEB90 /* Build configuration list for PBXNativeTarget "ToppaidappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8300711BABD837006AEB90 /* Debug */,
+				4E8300721BABD837006AEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8300731BABD837006AEB90 /* Build configuration list for PBXNativeTarget "ToppaidappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8300741BABD837006AEB90 /* Debug */,
+				4E8300751BABD837006AEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8300381BABD837006AEB90 /* Project object */;
+}
