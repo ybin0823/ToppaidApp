@@ -35,6 +35,8 @@
             AppInfo *appInfo = [AppInfo AppInfoWithId:entry];
             [appInfoList addObject:appInfo];
         }
+        NSLog(@"%@", appInfoList);
+        NSLog(@"count : %d", (int)[appInfoList count]);
     }
     
     return self;

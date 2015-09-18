@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4E3B8D371BABE90E00D9FE37 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D361BABE90E00D9FE37 /* MyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		4E3B8D3A1BAC075A00D9FE37 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D391BAC075A00D9FE37 /* AppInfo.m */; settings = {ASSET_TAGS = (); }; };
-		4E3B8D3D1BAC08C800D9FE37 /* AppInfoListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D3C1BAC08C800D9FE37 /* AppInfoListManager.m */; settings = {ASSET_TAGS = (); }; };
+		4E3B8D401BAC43A400D9FE37 /* MyEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D3F1BAC43A400D9FE37 /* MyEntity.m */; settings = {ASSET_TAGS = (); }; };
+		4E3B8D431BAC440F00D9FE37 /* MyEntityListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D421BAC440F00D9FE37 /* MyEntityListManager.m */; settings = {ASSET_TAGS = (); }; };
+		4E3B8D461BAC55BA00D9FE37 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B8D451BAC55BA00D9FE37 /* MyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		4E8300451BABD837006AEB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8300441BABD837006AEB90 /* main.m */; };
 		4E8300481BABD837006AEB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8300471BABD837006AEB90 /* AppDelegate.m */; };
-		4E83004B1BABD837006AEB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83004A1BABD837006AEB90 /* ViewController.m */; };
 		4E83004E1BABD837006AEB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E83004C1BABD837006AEB90 /* Main.storyboard */; };
 		4E8300501BABD837006AEB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E83004F1BABD837006AEB90 /* Assets.xcassets */; };
 		4E8300531BABD837006AEB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8300511BABD837006AEB90 /* LaunchScreen.storyboard */; };
@@ -40,16 +40,16 @@
 /* Begin PBXFileReference section */
 		4E3B8D351BABE90E00D9FE37 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		4E3B8D361BABE90E00D9FE37 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
-		4E3B8D381BAC075A00D9FE37 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
-		4E3B8D391BAC075A00D9FE37 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
-		4E3B8D3B1BAC08C800D9FE37 /* AppInfoListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoListManager.h; sourceTree = "<group>"; };
-		4E3B8D3C1BAC08C800D9FE37 /* AppInfoListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoListManager.m; sourceTree = "<group>"; };
+		4E3B8D3E1BAC43A400D9FE37 /* MyEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEntity.h; sourceTree = "<group>"; };
+		4E3B8D3F1BAC43A400D9FE37 /* MyEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEntity.m; sourceTree = "<group>"; };
+		4E3B8D411BAC440F00D9FE37 /* MyEntityListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEntityListManager.h; sourceTree = "<group>"; };
+		4E3B8D421BAC440F00D9FE37 /* MyEntityListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEntityListManager.m; sourceTree = "<group>"; };
+		4E3B8D441BAC55BA00D9FE37 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		4E3B8D451BAC55BA00D9FE37 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		4E8300401BABD837006AEB90 /* Toppaidapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toppaidapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8300441BABD837006AEB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E8300461BABD837006AEB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E8300471BABD837006AEB90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E8300491BABD837006AEB90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E83004A1BABD837006AEB90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E83004D1BABD837006AEB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E83004F1BABD837006AEB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8300521BABD837006AEB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,6 @@
 			children = (
 				4E8300461BABD837006AEB90 /* AppDelegate.h */,
 				4E8300471BABD837006AEB90 /* AppDelegate.m */,
-				4E8300491BABD837006AEB90 /* ViewController.h */,
-				4E83004A1BABD837006AEB90 /* ViewController.m */,
 				4E83004C1BABD837006AEB90 /* Main.storyboard */,
 				4E83004F1BABD837006AEB90 /* Assets.xcassets */,
 				4E8300511BABD837006AEB90 /* LaunchScreen.storyboard */,
@@ -121,10 +119,12 @@
 				4E8300431BABD837006AEB90 /* Supporting Files */,
 				4E3B8D351BABE90E00D9FE37 /* MyTableViewController.h */,
 				4E3B8D361BABE90E00D9FE37 /* MyTableViewController.m */,
-				4E3B8D381BAC075A00D9FE37 /* AppInfo.h */,
-				4E3B8D391BAC075A00D9FE37 /* AppInfo.m */,
-				4E3B8D3B1BAC08C800D9FE37 /* AppInfoListManager.h */,
-				4E3B8D3C1BAC08C800D9FE37 /* AppInfoListManager.m */,
+				4E3B8D3E1BAC43A400D9FE37 /* MyEntity.h */,
+				4E3B8D3F1BAC43A400D9FE37 /* MyEntity.m */,
+				4E3B8D411BAC440F00D9FE37 /* MyEntityListManager.h */,
+				4E3B8D421BAC440F00D9FE37 /* MyEntityListManager.m */,
+				4E3B8D441BAC55BA00D9FE37 /* MyTableViewCell.h */,
+				4E3B8D451BAC55BA00D9FE37 /* MyTableViewCell.m */,
 			);
 			path = Toppaidapp;
 			sourceTree = "<group>";
@@ -285,12 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3B8D3A1BAC075A00D9FE37 /* AppInfo.m in Sources */,
-				4E3B8D3D1BAC08C800D9FE37 /* AppInfoListManager.m in Sources */,
-				4E83004B1BABD837006AEB90 /* ViewController.m in Sources */,
 				4E8300481BABD837006AEB90 /* AppDelegate.m in Sources */,
 				4E8300451BABD837006AEB90 /* main.m in Sources */,
 				4E3B8D371BABE90E00D9FE37 /* MyTableViewController.m in Sources */,
+				4E3B8D461BAC55BA00D9FE37 /* MyTableViewCell.m in Sources */,
+				4E3B8D431BAC440F00D9FE37 /* MyEntityListManager.m in Sources */,
+				4E3B8D401BAC43A400D9FE37 /* MyEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

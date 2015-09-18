@@ -7,7 +7,7 @@
 //
 
 #import "MyTableViewController.h"
-#import "AppInfoListManager.h"
+#import "MyEntityListManager.h"
 
 @interface MyTableViewController ()
 
@@ -15,8 +15,7 @@
 
 @implementation MyTableViewController
 {
-    NSMutableDictionary *model;
-//    AppInfoListManager *appInfoListManager;
+    MyEntityListManager *entityManager;
 }
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -24,15 +23,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     
     if (self) {
-        
-        model = [[NSMutableDictionary alloc] init];
-
-        [model setObject:@[@"NAVER", @"Apple", @"IBM", @"Google", @"Facebook",
-                           @"Oracle"] forKey:@"section1"];
-        [model setObject:@[@"BMW", @"Toyota", @"Honda", @"Mercedes", @"Porsche",
-                           @"Nissan", @"Ford", @"VW", @"Audi"] forKey:@"section2"];
-//        appInfoListManager = [AppInfoListManager AppInfoListManagerWithURL:[NSURL URLWithString:
-//                                                                            @"https://itunes.apple.com/kr/rss/toppaidapplications/limit=100/json"]];
+        entityManager = [[MyEntityListManager alloc] init];
     }
     return self;
 }
@@ -41,7 +32,7 @@
     [super viewDidLoad];
     
     [[self tableView] registerClass:[UITableViewCell class]
-             forCellReuseIdentifier:@"default cell"];
+             forCellReuseIdentifier:@"MyIdentifier"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,19 +42,18 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [model count];
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSString *key = (section == 0) ? @"section1" : @"section2";
-    return [[model objectForKey:key] count];
+    return [entityManager count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"default cell" forIndexPath:indexPath];
-    NSString *key = ([indexPath section] == 0) ? @"section1" : @"section2";
-    NSString *title = [[model objectForKey:key] objectAtIndex:[indexPath row]];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier" forIndexPath:indexPath];
     
+    NSString *title = [[[entityManager entities] objectAtIndex:[indexPath row]] title];
+
     [[cell textLabel] setText:title];
     
     return cell;
