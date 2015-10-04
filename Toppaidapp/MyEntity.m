@@ -45,8 +45,9 @@
 - (UIImage *) image {
     for (id image in images) {
         if([[[image objectForKey:@"attributes"] objectForKey:@"height"] isEqualToString:@"53"]) {
-            NSString *imageUrl = [image objectForKey:@"label"];
-            NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
+            NSURL *imageUrl = [NSURL URLWithString:[image objectForKey:@"label"]];
+            NSData *data = [NSData dataWithContentsOfURL:imageUrl];
+            
             return [UIImage imageWithData:data];
         }
     }

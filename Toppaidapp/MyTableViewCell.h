@@ -10,4 +10,8 @@
 
 @interface MyTableViewCell : UITableViewCell
 
+@property (nonatomic, readonly) UILabel *title;
+@property (nonatomic, readonly) UILabel *rights;
+@property (nonatomic, readonly) UIImageView *thumbnail;
+
 @end

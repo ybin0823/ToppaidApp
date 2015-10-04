@@ -8,6 +8,7 @@
 
 #import "MyTableViewController.h"
 #import "MyEntityListManager.h"
+#import "MyTableViewCell.h"
 
 @interface MyTableViewController ()
 
@@ -18,8 +19,7 @@
     MyEntityListManager *entityManager;
 }
 
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     
     if (self) {
@@ -28,11 +28,17 @@
     return self;
 }
 
+- (void) dealloc {
+    [entityManager release];
+    
+    [super dealloc];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[self tableView] registerClass:[UITableViewCell class]
+    [[self tableView] registerClass:[MyTableViewCell class]
              forCellReuseIdentifier:@"MyIdentifier"];
+    [[self tableView] setRowHeight:80];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,11 +56,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier" forIndexPath:indexPath];
+    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier"];
     
-    NSString *title = [[[entityManager entities] objectAtIndex:[indexPath row]] title];
+    if (cell == nil) {
+        cell = [[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                      reuseIdentifier:@"MyIdentifier"];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    
+    id item = [[entityManager entities] objectAtIndex:[indexPath row]];
 
-    [[cell textLabel] setText:title];
+    [[cell title] setText:[item title]];
+    [[cell rights] setText:[item rights]];
+    [[cell thumbnail] setImage:[item image]];
     
     return cell;
 }
